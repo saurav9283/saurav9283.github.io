@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Railway Reservation System</title>
+    <link rel="stylesheet" href="front.css">
+</head>
+<style>
+    .images {
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+        padding-top:20px;
+    }
+
+    .food {
+        background-color: blanchedalmond;
+    }
+
+    .input {
+        width: 10%;
+        padding: 0.5rem;
+        border-radius: 25px;
+        font-size: 1.1rem;
+    }
+
+    .catering {
+        position: absolute;
+        top: 25%;
+        left: 30%;
+    }
+
+    .head1 {
+        padding: 5px;
+        background-color: black;
+        text-align: center;
+        justify-content: center;
+        border-radius: 20px;
+        width: 110%;
+        font-size: 55px;
+        color: white;
+    }
+    
+    .head2 {
+        padding: 5px;
+        margin-top: 3%;
+        margin-left: 10%;
+        background-color: white;
+        border-radius: 20px;
+        text-align: center;
+        justify-content: center;
+        font-size: 45px;
+        color: black;
+    }
+
+    .form-group {
+        width: 90%;
+        padding: 0.5rem;
+        border-radius: 9px;
+        font-size: 1.1rem;
+    }
+
+    .btn {
+        margin: 5px;
+        padding: 5px 10px;
+        border-radius: 25px;
+        font-size: 17px;
+        margin-left: 50%;
+        background-color: greenyellow;
+        justify-content: center;
+    }
+
+    #pnr {
+        margin: 20px;
+        justify-content: center;
+        border-radius: 15px;
+        margin: 0.5%;
+        font-size: 20px;
+        color: white;
+    }
+
+    .nevbar{
+    overflow: hidden;
+    padding-left:90px;
+    background-color: rgb(197, 197, 122);
+}
+.nevbar a{
+    float: left;
+    font-size: 20px;
+    color: rgb(9, 43, 138);
+    margin: 3px 60px;
+    padding: 10px 10px;
+    background-color: paleturquoise;
+    border-radius: 5px;
+}
+.logo{
+    padding-bottom:20px;
+}
+.navbar a.active,a:hover{
+   
+   background:white;
+   border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+</style>
+
+<body>
+    <div class="head" >
+        <div class="logo">
+           <h1> RAILWAY RESERVATION SYSTEM</h1>
+        </div> 
+             <div class="nevbar">
+                 <a href="front.html" style="text-decoration: none;;">HOME</a>
+                 <a  href="meals.html" class="active" style="text-decoration: none; color: red;">MEALS</a>
+                 <a href="holiday packages.html" style="text-decoration: none;" >HOLYDAY PACKAGES</a>
+                 <a  href="services.html" style="text-decoration: none;">SERVICE</a>
+                 <a href="CONTACT US.html" style="text-decoration: none;" >CONTACT  US</a>
+             </div>   
+  </div>
+            <img class="images" src="food.jpg">
+            <div class="catering">
+                <h1 class="head1">Welcome to E-Catering</h1>
+                <h2 class="head2">Order Something Special </h2>
+                <div class="form-group">
+                    <label for="pnrnumber"></label>
+                    <input type="tel" name="name" id="pnr" placeholder="Enter your PNR no.">
+                </div>
+                <div >
+                    <button class="btn"><b>Order Now</b></button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <table
+                style=" width: 100%;height: 30em; text-align: center;margin: 0;padding: 0;">
+                <tr style="background-color: lightgreen; width: 200px; height: 50px; margin: none; font-size: 25px;">
+                    <th style="border-radius: 15px;">ITEM &nbsp IMAGE</th>
+                    <th style="border-radius: 15px;">ITEM &nbsp NAME</th>
+                    <th style="border-radius: 15px;"> PRICES</th>
+                    <th style="border-radius: 15px;">DISCOUNT</th>
+                </tr>
+                <tr style="background-color:azure;">
+                    <td style="padding-bottom: 20px; padding-top: 20px; border-radius: 15px;"><img src="biryani.jpg"
+                            height="200px" width="300px" alt=""> </td>
+                    <td style="font-size: 20px; border-radius: 15px;"> <b>Biryani</b></td>
+                    <td style="font-size: 20px; border-radius: 15px;"><b>Rs.120 (including all taxes)</b></td>
+                    <td style="font-size: 30px; border-radius: 15px;"><b>20%</b>  <a style="padding: 10px 10px; background-color: aqua; border-radius: 30px;text-decoration: none;" href="">Book Now</a></td>
+                </tr>
+                <tr style="background-color:snow;">
+                    <td style="padding-bottom: 20px; padding-top: 20px; border-radius: 15px; border-radius: 15px; "><img
+                            src="fried rice.jpg" height="200px" width="300px" alt=""></td>
+                    <td style="font-size: 20px; border-radius: 15px; "><b> Fried Rice</b></td>
+                    <td style="font-size: 20px; border-radius: 15px; "><b>Rs.90 (including all taxes)</b></td>
+                    <td style="font-size: 30px; border-radius: 15px; "><b>30%</b><a style="padding: 10px 10px; background-color: aqua; border-radius: 30px;text-decoration: none;" href="">Book Now</a></td>
+                </tr>
+                <tr style="background-color:azure; ">
+                    <td style="padding-bottom: 20px; padding-top: 20px; border-radius: 15px; border-radius: 15px;"><img
+                     src="paneer butter masala.jpg" height="200px" width="300px" alt=""></td>
+                    <td style="font-size: 20px; border-radius: 15px; "><b>Panner &nbsp Butter &nbsp Masala</b></td>
+                    <td style="font-size: 20px; border-radius: 15px; "><b>Rs.180 (including all taxes)</b></td>
+                    <td style="font-size: 30px; font-style: inherit; border-radius: 15px; "><b>20%</b><a style="padding: 10px 10px; background-color: aqua; border-radius: 30px;text-decoration: none;" href="">Book Now</a></td>
+                </tr>
+                <tr style="background-color: snow;">
+                    <td style="padding-bottom: 20px; padding-top: 20px; border-radius: 15px;"><img src="pasta.jpg"
+                            height="200px" width="300px" alt=""></td>
+                    <td style="font-size: 20px; border-radius: 15px; "><b>Pasta</b></td>
+                    <td style="font-size: 20px; border-radius: 15px; "><b>Rs.50 (including all taxes)</b></td>
+                    <td style="font-size: 30px; font-style: inherit; border-radius: 15px; "><b>10%</b><a style="padding: 10px 10px; background-color: aqua; border-radius: 30px;text-decoration: none;" href="">Book Now</a></td>
+                </tr>
+                <tr style="background-color:azure">
+                    <td style="padding-bottom: 20px; padding-top: 20px; border-radius: 15px;"><img src="pizza.jpg"
+                            height="200px" width="300px" alt=""></td>
+                    <td style="font-size: 20px; border-radius: 15px; "><b>Pizza</b></td>
+                    <td style="font-size: 20px; border-radius: 15px; "><b>Rs.300 (including all taxes)</b></td>
+                    <td style="font-size: 30px; font-style: inherit; border-radius: 15px; "><b>30%</b><a style="padding: 10px 10px; background-color: aqua; border-radius: 30px;text-decoration: none;" href="">Book Now</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
